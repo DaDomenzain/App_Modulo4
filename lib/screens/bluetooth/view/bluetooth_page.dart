@@ -12,6 +12,13 @@ class BluetoothPage extends StatelessWidget {
           centerTitle: true,
           title: const Text('Bluetooth Demo'),
         ),
-        body: SearchDevice());
+        body: Column(children: [
+          Image.asset(
+            'assets/6.png',
+            width: 250,
+            fit: BoxFit.cover,
+          ),
+          Expanded(child: SearchDevice())
+        ]));
   }
 }
