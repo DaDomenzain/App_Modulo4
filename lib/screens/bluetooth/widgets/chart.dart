@@ -33,7 +33,7 @@ class _ChartState extends State<Chart> {
         minimum: 0,
       ),
       primaryYAxis: const NumericAxis(
-        maximum: 0.4,
+        maximum: 3.5,
         minimum: 0,
       ),
       series: <CartesianSeries>[
