@@ -20,7 +20,7 @@ class _ChartState extends State<Chart> {
     _zoomPanBehavior = ZoomPanBehavior(
         enablePinching: true, zoomMode: ZoomMode.xy, enablePanning: true);
     _chartData = getChartData();
-    Timer.periodic(const Duration(milliseconds: 250), updateDataSource);
+    Timer.periodic(const Duration(milliseconds: 100), updateDataSource);
     super.initState();
   }
 
@@ -52,7 +52,7 @@ class _ChartState extends State<Chart> {
 
   double time = 0;
   void updateDataSource(Timer timer) {
-    _chartData.add(Data(time = time + 0.25, double.parse(widget.datatest)));
+    _chartData.add(Data(time = time + 0.1, double.parse(widget.datatest)));
     //_chartData.removeAt(0);
     //_chartSeriesController.updateDataSource(addedDataIndex: _chartData.length - 1);
   }
