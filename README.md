@@ -1,16 +1,38 @@
-# app_rafa
+##Aplicación grupal
+La aplicación recibe datos de un sensor de pulso de Sparkfun, que se conecta al microcontrolador Raspberry Pi Pico W, el cual manda los datos por Bluetooth Low Energy (BLE) al teléfono el cual tiene cargada la aplicación previamente realizada en flutter. 
 
-A new Flutter project.
+Link del repositorio: https://github.com/DaDomenzain/App_Modulo4.git 
 
-## Getting Started
+#Interfaz 
 
-This project is a starting point for a Flutter application.
+Link del video comprobando su funcionamiento: 
 
-A few resources to get you started if this is your first Flutter project:
+https://tecmx.sharepoint.com/:v:/s/Oxycycle/EY5YCcj1fO1HvjGAE59NNlsBklwbMMMjuqYMJd3k-kmOvg?e=SK8AHh 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+#Funcionamiento bluetooth 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Link del video comprobando su funcionamiento:  
+
+https://tecmx.sharepoint.com/:v:/s/Oxycycle/EajB4TO1RHpCvFPoIm8naowBOcj1hlH4-RX6juU4-Prjqw?e=FdrzWY 
+
+#Aplicación individual 
+
+- Valeria Herrera: Al correr la aplicación se pide tu altura y tu peso y con esto se calcula el índice de masa de la persona. Te indica tu estado y te da una recomendación para tener una vida saludable. 
+
+  Link repositorio: https://github.com/valhm1/App_individual.git  
+
+- Edna Meza: Aplicación que al poner dos nombres te da un porcentaje de compatibilidad, es un tipo juego para chipear gente.  
+
+  Link repositorio: https://github.com/Ednamevi/a.git 	 
+
+- Xavier Panamito: Aplicación del famoso juego de ahorcado donde tienes que adivinar las palabras secretas. 
+
+	Link repositorio: https://github.com/XavierPG/Ahorcado.git  
+
+- David Domenzain: La aplicación funciona como el juego de Wordle. La app no muestra los intentos anteriores y da error si se ingresa una palabra de menos de 5 letras, eso ya no lo arreglé. 
+
+  Link repositorio: https://github.com/DaDomenzain/Wordle.git  
+
+ 
+
+ 
